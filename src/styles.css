@@ -470,6 +470,35 @@
   transform: translateY(-2px);
 }
 
+.btn-download {
+  margin-top: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  text-decoration: none;
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: var(--accent-hover);
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid var(--accent-border);
+  background: var(--accent-soft);
+  transition: border-color 0.2s ease, background-color 0.2s ease,
+    transform 0.2s ease, color 0.2s ease;
+}
+
+.btn-download svg {
+  width: 17px;
+  height: 17px;
+}
+
+.btn-download:hover {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--bg);
+  transform: translateY(-2px);
+}
+
 /* ── About: photo + summary ── */
 .page-stack {
   display: flex;

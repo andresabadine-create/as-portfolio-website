@@ -100,6 +100,10 @@ export const copy = {
     project3Desc:
       'Task management application built in Python with persistent storage in MySQL. Full CRUD operations to create, update, organize and track tasks, backed by a relational database.',
     project3Status: 'Completed',
+    project4Name: 'Resoluto Gestor',
+    project4Desc:
+      'Desktop management system for small businesses: a cash book with full double-entry accounting, inventory with weighted-average cost, expenses, sales and returns, and financial reports — trial balance, income statement, ledger and annual summary. Every operation auto-generates a balanced accounting entry.',
+    project4Status: 'Completed',
 
     // Blog
     blogTitle: 'Blog',
@@ -129,6 +133,7 @@ export const copy = {
 
     // Misc
     viewOnGithub: 'View on GitHub',
+    downloadApp: 'Download for Windows',
     footer: 'Building practical technology for real business impact.',
     footerRights: 'All rights reserved.',
   },
@@ -234,6 +239,10 @@ export const copy = {
     project3Desc:
       'Aplicação de gerenciamento de tarefas em Python com armazenamento persistente em MySQL. Operações CRUD completas para criar, atualizar, organizar e acompanhar tarefas, apoiada por um banco de dados relacional.',
     project3Status: 'Concluído',
+    project4Name: 'Resoluto Gestor',
+    project4Desc:
+      'Sistema desktop de gestão para pequenos negócios: livro-caixa com contabilidade completa por partidas dobradas, estoque com custo médio ponderado, despesas, vendas e devoluções, e relatórios financeiros — Balancete, DRE, Razão e Resumo Anual. Cada operação gera automaticamente um lançamento contábil balanceado.',
+    project4Status: 'Concluído',
 
     // Blog
     blogTitle: 'Blog',
@@ -263,6 +272,7 @@ export const copy = {
 
     // Misc
     viewOnGithub: 'Ver no GitHub',
+    downloadApp: 'Baixar para Windows',
     footer: 'Construindo tecnologia prática para impacto real nos negócios.',
     footerRights: 'Todos os direitos reservados.',
   },

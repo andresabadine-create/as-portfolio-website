@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { GitHubIcon } from '../components/icons'
+import { GitHubIcon, DownloadIcon } from '../components/icons'
 
 /* Display order: completed (live) → in development (dev) → in study (study). */
 const STATUS_ORDER = { live: 0, dev: 1, study: 2 }
@@ -30,6 +30,14 @@ export default function Projetos({ t }) {
         statusType: 'live',
         tags: ['Python', 'MySQL', 'CRUD', 'CLI'],
         github: 'https://github.com/andresabadine-create/task-tracker',
+      },
+      {
+        name: t.project4Name,
+        desc: t.project4Desc,
+        status: t.project4Status,
+        statusType: 'live',
+        tags: ['Python', 'Tkinter', 'SQLite', 'JSON', 'Desktop App'],
+        download: '/downloads/ResolutoGestor.zip',
       },
     ]
     return list.sort(
@@ -83,6 +91,12 @@ export default function Projetos({ t }) {
                   <span key={tag}>{tag}</span>
                 ))}
               </div>
+              {p.download && (
+                <a className="btn-download" href={p.download} download>
+                  <DownloadIcon />
+                  {t.downloadApp}
+                </a>
+              )}
               {p.github && (
                 <a
                   className="btn-github"
