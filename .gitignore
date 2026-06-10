@@ -12,11 +12,21 @@ dist
 dist-ssr
 *.local
 
+# Environment variables (never commit secrets / API keys)
+.env
+.env.*
+!.env.example
+
+# Vercel (local project link — holds project/org IDs, not for the repo)
+.vercel
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+Thumbs.db
+Desktop.ini
 *.suo
 *.ntvs*
 *.njsproj
