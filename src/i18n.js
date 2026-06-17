@@ -17,7 +17,7 @@ export const copy = {
     ctaPrimary: 'View Projects',
     ctaSecondary: 'Contact Me',
     homeAboutHint: 'Background, career, studies, and the stack I build with.',
-    homeProjectsHint: 'Selected work — AI assistants, systems, and tools.',
+    homeProjectsHint: 'Selected work: AI assistants, systems, and tools.',
     homeBlogHint: 'Updates on my path as a developer.',
     homeContactHint: 'Start a conversation about your project.',
 
@@ -26,6 +26,8 @@ export const copy = {
     aboutRole: 'Systems Analyst & Developer',
     aboutText:
       'Systems Analysis & Development (UniCV) and Geography (UEM) student with professional experience in team, process, and project management. Now transitioning into software development, with hands-on practice automating processes with Python and integrating AI across several languages and tools.',
+    techTitle: 'Technologies I Work With',
+    techIntro: 'The languages, frameworks, and platforms I use to build and ship.',
     experienceTitle: 'Experience',
     educationTitle: 'Education',
     certificationsTitle: 'Certifications',
@@ -92,17 +94,13 @@ export const copy = {
     project1Desc:
       'AI-powered WhatsApp assistant for odontologic clinics: handles appointment booking, FAQs, sends reminders, integrated with Google Calendar and scheduling spreadsheets.',
     project1Status: 'In Development',
-    project2Name: 'OnClinic',
-    project2Desc:
-      'System for managing dental clinics: patient registration, financial management, attendance reports, inventory control and more.',
-    project2Status: 'In Development',
     project3Name: 'Task Tracker',
     project3Desc:
       'Task management application built in Python with persistent storage in MySQL. Full CRUD operations to create, update, organize and track tasks, backed by a relational database.',
     project3Status: 'Completed',
     project4Name: 'Resoluto Gestor',
     project4Desc:
-      'Desktop management system for small businesses: a cash book with full double-entry accounting, inventory with weighted-average cost, expenses, sales and returns, and financial reports — trial balance, income statement, ledger and annual summary. Every operation auto-generates a balanced accounting entry.',
+      'Desktop management system for small businesses: a cash book with full double-entry accounting, inventory with weighted-average cost, expenses, sales and returns, and financial reports: trial balance, income statement, ledger and annual summary. Every operation auto-generates a balanced accounting entry.',
     project4Status: 'Completed',
 
     // Blog
@@ -114,9 +112,9 @@ export const copy = {
         category: 'Certification',
         title: 'I earned my Google Cloud Computing Foundations certification',
         body: [
-          'This month I completed the Google Cloud Computing Foundations certification — my first formal milestone in the cloud, and a meaningful step in my transition from project management into software development.',
+          'This month I completed the Google Cloud Computing Foundations certification, my first formal milestone in the cloud, and a meaningful step in my transition from project management into software development.',
           'The path covered the fundamentals of cloud computing: running deployment simulations on Google Cloud and managing both relational and non-relational data across projects already in production and others still being implemented.',
-          'More than a certificate, it confirmed the direction I want to follow: building scalable, data-driven systems. Next, I’m deepening my work with Python, databases, and AI-assisted development — and I’ll keep sharing the progress here.',
+          'More than a certificate, it confirmed the direction I want to follow: building scalable, data-driven systems. Next, I’m deepening my work with Python, databases, and AI-assisted development, and I’ll keep sharing the progress here.',
         ],
       },
     ],
@@ -156,7 +154,7 @@ export const copy = {
     ctaPrimary: 'Ver Projetos',
     ctaSecondary: 'Falar Comigo',
     homeAboutHint: 'Trajetória, carreira, estudos e a stack com que construo.',
-    homeProjectsHint: 'Trabalhos selecionados — assistentes de IA, sistemas e ferramentas.',
+    homeProjectsHint: 'Trabalhos selecionados: assistentes de IA, sistemas e ferramentas.',
     homeBlogHint: 'Atualizações sobre meu caminho como desenvolvedor.',
     homeContactHint: 'Comece uma conversa sobre o seu projeto.',
 
@@ -165,6 +163,8 @@ export const copy = {
     aboutRole: 'Analista e Desenvolvedor de Sistemas',
     aboutText:
       'Estudante de Análise e Desenvolvimento de Sistemas (UniCV) e Geografia (UEM), com experiência profissional em gestão de equipe, processos e projetos. Atualmente em transição para o desenvolvimento de software, com prática em automação de processos com Python e integração de IA em diversas linguagens e ferramentas.',
+    techTitle: 'Tecnologias que Utilizo',
+    techIntro: 'As linguagens, frameworks e plataformas que uso para construir e entregar.',
     experienceTitle: 'Experiência',
     educationTitle: 'Educação',
     certificationsTitle: 'Certificações',
@@ -231,17 +231,13 @@ export const copy = {
     project1Desc:
       'Assistente WhatsApp com IA para clínicas odontológicas: agendamento de consultas, FAQs, envio de lembretes, integrado com Google Calendar e planilhas de agendamento.',
     project1Status: 'Em Desenvolvimento',
-    project2Name: 'OnClinic',
-    project2Desc:
-      'Sistema de gerenciamento de clínicas odontológicas: cadastro de pacientes, financeiro, relatório de atendimentos, controle de estoque e mais.',
-    project2Status: 'Em Desenvolvimento',
     project3Name: 'Task Tracker',
     project3Desc:
       'Aplicação de gerenciamento de tarefas em Python com armazenamento persistente em MySQL. Operações CRUD completas para criar, atualizar, organizar e acompanhar tarefas, apoiada por um banco de dados relacional.',
     project3Status: 'Concluído',
     project4Name: 'Resoluto Gestor',
     project4Desc:
-      'Sistema desktop de gestão para pequenos negócios: livro-caixa com contabilidade completa por partidas dobradas, estoque com custo médio ponderado, despesas, vendas e devoluções, e relatórios financeiros — Balancete, DRE, Razão e Resumo Anual. Cada operação gera automaticamente um lançamento contábil balanceado.',
+      'Sistema desktop de gestão para pequenos negócios: livro-caixa com contabilidade completa por partidas dobradas, estoque com custo médio ponderado, despesas, vendas e devoluções, e relatórios financeiros: Balancete, DRE, Razão e Resumo Anual. Cada operação gera automaticamente um lançamento contábil balanceado.',
     project4Status: 'Concluído',
 
     // Blog
@@ -253,9 +249,9 @@ export const copy = {
         category: 'Certificação',
         title: 'Conquistei minha certificação Google Cloud Computing Foundations',
         body: [
-          'Neste mês concluí a certificação Google Cloud Computing Foundations — meu primeiro marco formal na nuvem e um passo importante na transição da gestão de projetos para o desenvolvimento de software.',
+          'Neste mês concluí a certificação Google Cloud Computing Foundations, meu primeiro marco formal na nuvem e um passo importante na transição da gestão de projetos para o desenvolvimento de software.',
           'A trilha cobriu os fundamentos de cloud computing: simulações de implementação na plataforma Google Cloud e o gerenciamento de dados relacionais e não relacionais em projetos já em produção e outros ainda em implementação.',
-          'Mais do que um certificado, ela confirmou a direção que quero seguir: construir sistemas escaláveis e orientados a dados. Os próximos passos são aprofundar em Python, bancos de dados e desenvolvimento assistido por IA — e vou continuar compartilhando o progresso por aqui.',
+          'Mais do que um certificado, ela confirmou a direção que quero seguir: construir sistemas escaláveis e orientados a dados. Os próximos passos são aprofundar em Python, bancos de dados e desenvolvimento assistido por IA, e vou continuar compartilhando o progresso por aqui.',
         ],
       },
     ],
@@ -277,11 +273,6 @@ export const copy = {
     footerRights: 'Todos os direitos reservados.',
   },
 }
-
-export const TECH_STACK = [
-  'Python', 'JavaScript', 'TypeScript', 'React', 'Node.js',
-  'MySQL', 'PostgreSQL', 'Google Cloud', 'AWS', 'n8n',
-]
 
 export const LINKEDIN_URL = 'https://www.linkedin.com/in/andr%C3%A9-sabadine/'
 export const LINKEDIN_DISPLAY = '/in/André'

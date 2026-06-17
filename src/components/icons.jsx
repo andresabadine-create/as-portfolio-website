@@ -32,6 +32,49 @@ export const GitHubIcon = () => (
   </svg>
 )
 
+/* ── Language flags (used by the header switcher) ── */
+export const BrazilFlag = () => (
+  <svg viewBox="0 0 28 20" aria-hidden="true">
+    <rect width="28" height="20" rx="3" fill="#009b3a" />
+    <path d="M14 3 25.2 10 14 17 2.8 10z" fill="#ffdf00" />
+    <circle cx="14" cy="10" r="3.7" fill="#002776" />
+    <path d="M10.7 9.2a8 8 0 0 1 6.6.9" fill="none" stroke="#fff" strokeWidth="0.9" />
+  </svg>
+)
+
+export const USFlag = () => {
+  const stripe = 20 / 13
+  const whiteStripes = [1, 3, 5, 7, 9, 11]
+  return (
+    <svg viewBox="0 0 28 20" aria-hidden="true">
+      <defs>
+        <clipPath id="us-flag-clip">
+          <rect width="28" height="20" rx="3" />
+        </clipPath>
+      </defs>
+      <g clipPath="url(#us-flag-clip)">
+        <rect width="28" height="20" fill="#b22234" />
+        {whiteStripes.map((i) => (
+          <rect key={i} y={i * stripe} width="28" height={stripe} fill="#fff" />
+        ))}
+        <rect width="12.5" height={stripe * 7} fill="#3c3b6e" />
+        <g fill="#fff">
+          {Array.from({ length: 4 }, (_, row) =>
+            Array.from({ length: 5 }, (_, col) => (
+              <circle
+                key={`${row}-${col}`}
+                cx={1.7 + col * 2.3}
+                cy={1.5 + row * 2.7}
+                r="0.5"
+              />
+            ))
+          )}
+        </g>
+      </g>
+    </svg>
+  )
+}
+
 export const DownloadIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />

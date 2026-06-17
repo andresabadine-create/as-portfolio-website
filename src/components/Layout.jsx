@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { copy } from '../i18n'
-import { LocationIcon } from './icons'
+import { LocationIcon, BrazilFlag, USFlag } from './icons'
 
 /* Nav items map to standalone .html pages (multi-page site). */
 const NAV = [
@@ -50,17 +50,23 @@ export default function Layout({ current, children }) {
         <div className="lang-toggle" role="group" aria-label={t.languageLabel}>
           <button
             type="button"
-            className={language === 'en' ? 'active' : ''}
-            onClick={() => setLanguage('en')}
+            className={`flag-btn ${language === 'pt-BR' ? 'active' : ''}`}
+            onClick={() => setLanguage('pt-BR')}
+            aria-pressed={language === 'pt-BR'}
+            aria-label="Português (Brasil)"
+            title="Português (Brasil)"
           >
-            EN
+            <BrazilFlag />
           </button>
           <button
             type="button"
-            className={language === 'pt-BR' ? 'active' : ''}
-            onClick={() => setLanguage('pt-BR')}
+            className={`flag-btn ${language === 'en' ? 'active' : ''}`}
+            onClick={() => setLanguage('en')}
+            aria-pressed={language === 'en'}
+            aria-label="English (United States)"
+            title="English (United States)"
           >
-            PT
+            <USFlag />
           </button>
         </div>
       </header>

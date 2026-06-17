@@ -1,31 +1,13 @@
-import { TECH_STACK } from '../i18n'
+import TechGrid from '../components/TechGrid'
 
 export default function Sobre({ t }) {
   return (
     <div className="page-stack">
-      {/* Intro: photo + summary */}
-      <section className="panel about-panel">
-        <div className="about-head">
-          <img
-            className="about-photo"
-            src="/profile.png"
-            alt="André Sabadine"
-            width="200"
-            height="240"
-          />
-          <div className="about-head-text">
-            <p className="eyebrow">{t.aboutTitle}</p>
-            <h1 className="page-title">André Sabadine</h1>
-            <p className="about-role">{t.aboutRole}</p>
-            <p className="lead">{t.aboutText}</p>
-          </div>
-        </div>
-
-        <div className="tech-stack">
-          {TECH_STACK.map((tech) => (
-            <span key={tech} className="tech-tag">{tech}</span>
-          ))}
-        </div>
+      {/* Technologies I work with */}
+      <section className="panel tech-section">
+        <h2 className="section-heading">{t.techTitle}</h2>
+        <p className="tech-intro">{t.techIntro}</p>
+        <TechGrid />
       </section>
 
       {/* Experience */}

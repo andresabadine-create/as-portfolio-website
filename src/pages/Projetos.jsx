@@ -17,13 +17,6 @@ export default function Projetos({ t }) {
         tags: ['WhatsApp API', 'OpenAI', 'Google Calendar', 'Node.js', 'n8n'],
       },
       {
-        name: t.project2Name,
-        desc: t.project2Desc,
-        status: t.project2Status,
-        statusType: 'dev',
-        tags: ['Python', 'Django', 'REST APIs', 'Docker', 'React'],
-      },
-      {
         name: t.project3Name,
         desc: t.project3Desc,
         status: t.project3Status,
