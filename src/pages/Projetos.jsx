@@ -32,6 +32,21 @@ export default function Projetos({ t }) {
         tags: ['Python', 'Tkinter', 'SQLite', 'JSON', 'Desktop App'],
         download: '/downloads/ResolutoGestor.zip',
       },
+      {
+        name: t.project2Name,
+        desc: t.project2Desc,
+        status: t.project2Status,
+        statusType: 'study',
+        tags: [
+          'Java 21',
+          'Spring Boot',
+          'Spring Security (JWT)',
+          'PostgreSQL',
+          'Angular',
+          'Docker',
+        ],
+        github: 'https://github.com/andresabadine-create/barbearia_hipotetica',
+      },
     ]
     return list.sort(
       (a, b) => STATUS_ORDER[a.statusType] - STATUS_ORDER[b.statusType]

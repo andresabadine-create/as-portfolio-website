@@ -102,6 +102,10 @@ export const copy = {
     project4Desc:
       'Desktop management system for small businesses: a cash book with full double-entry accounting, inventory with weighted-average cost, expenses, sales and returns, and financial reports: trial balance, income statement, ledger and annual summary. Every operation auto-generates a balanced accounting entry.',
     project4Status: 'Completed',
+    project2Name: 'Hypothetical Barbershop',
+    project2Desc:
+      'Full-stack study project for barbershop management. Clients book, list and cancel appointments with JWT authentication, while a completion-based loyalty card (10 cuts = 1 free service) is validated straight from the admin panel. Role-based admin area with a user directory, an appointment-confirmation queue and broadcast notifications. Backend in Java 21 + Spring Boot (Spring Security, Spring Data JPA, Flyway) over PostgreSQL, Angular frontend, all orchestrated with Docker Compose.',
+    project2Status: 'In Study',
 
     // Blog
     blogTitle: 'Blog',
@@ -239,6 +243,10 @@ export const copy = {
     project4Desc:
       'Sistema desktop de gestão para pequenos negócios: livro-caixa com contabilidade completa por partidas dobradas, estoque com custo médio ponderado, despesas, vendas e devoluções, e relatórios financeiros: Balancete, DRE, Razão e Resumo Anual. Cada operação gera automaticamente um lançamento contábil balanceado.',
     project4Status: 'Concluído',
+    project2Name: 'Barbearia Hipotética',
+    project2Desc:
+      'Projeto de estudo full-stack para gestão de barbearia. Clientes agendam, listam e cancelam horários com autenticação JWT, enquanto um cartão fidelidade por cortes concluídos (10 cortes = 1 serviço grátis) é validado direto no painel admin. Área administrativa com controle de acesso por perfil, diretório de usuários, fila de confirmação de agendamentos e notificações em massa. Backend em Java 21 + Spring Boot (Spring Security, Spring Data JPA, Flyway) sobre PostgreSQL, frontend em Angular e tudo orquestrado com Docker Compose.',
+    project2Status: 'Em Estudo',
 
     // Blog
     blogTitle: 'Blog',
